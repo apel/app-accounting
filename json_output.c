@@ -17,6 +17,7 @@ void
 json_start()
 {
     printf("{");
+    g_first_node = true;
 }
 
 void
