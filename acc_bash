@@ -1,3 +1,3 @@
 #!/bin/sh
 
-LD_PRELOAD=libacc_preload DYLD_INSERT_LIBRARIES=/usr/local/lib/libacc_preload.dylib DYLD_FORCE_FLAT_NAMESPACE=y bash
+LD_PRELOAD=/usr/local/lib/libacc_preload.so DYLD_INSERT_LIBRARIES=/usr/local/lib/libacc_preload.dylib DYLD_FORCE_FLAT_NAMESPACE=y bash
