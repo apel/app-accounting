@@ -37,8 +37,12 @@
   are:
 
   o CMake (~= 2.8.0)
-  o ZeroMQ (~= 2.2.0)
+  o Make (~= 3.81)
+  o Clang (~= 3.4)
+  o ZeroMQ (~= 3.2.0)
   o LibYAML (~= 0.1.4)
+
+  Development packages are required for ZeroMQ and LibYAML.
 
   To get started, type:
 
